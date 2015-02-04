@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Florismart.Fontysfaction.Droid", "Florismart.Fontysfaction.Droid\Florismart.Fontysfaction.Droid.csproj", "{86543EE8-1EE7-4293-8327-E0E8A82E8CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Florismart.Fontysfaction.Droid.Sample", "Florismart.Fontysfaction.Droid.Sample\Florismart.Fontysfaction.Droid.Sample.csproj", "{8007CD71-5D74-4D19-B91B-EECF19FCC260}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8007CD71-5D74-4D19-B91B-EECF19FCC260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8007CD71-5D74-4D19-B91B-EECF19FCC260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8007CD71-5D74-4D19-B91B-EECF19FCC260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8007CD71-5D74-4D19-B91B-EECF19FCC260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86543EE8-1EE7-4293-8327-E0E8A82E8CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86543EE8-1EE7-4293-8327-E0E8A82E8CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86543EE8-1EE7-4293-8327-E0E8A82E8CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86543EE8-1EE7-4293-8327-E0E8A82E8CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
