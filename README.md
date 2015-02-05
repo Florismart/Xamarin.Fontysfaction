@@ -50,7 +50,7 @@ FontyConfiguration configuration = new FontyConfiguration () {
 
 FontyEntity
 -----
-You can configure your FontyEntity via Annotations, only required one is @FontyEntity!
+You can configure your FontyEntity via Attributes, only required one is [FontyEntity]!
 ![Screenshot](https://raw.github.com/FattoriniLuca/Fontysfaction/master/test-configuration.png) 
 ```c#
 [FontyEntity]
