@@ -30,7 +30,7 @@ namespace Florismart.Fontisfaction.Droid.View
 		{
 		}
 
-		protected void initAttributes (Context context, IAttributeSet attrs)
+		protected virtual void initAttributes (Context context, IAttributeSet attrs)
 		{
 			if (attrs != null) {
 				TypedArray a = context.ObtainStyledAttributes (attrs, Resource.Styleable.Fontable);
@@ -40,7 +40,7 @@ namespace Florismart.Fontisfaction.Droid.View
 			}
 		}
 
-		private bool setCustomFont (int fontTypo)
+		protected virtual bool setCustomFont (int fontTypo)
 		{
 			FontyTypo font = (FontyTypo)fontTypo;
 			try {
