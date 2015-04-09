@@ -20,4 +20,7 @@ Global
 		{86543EE8-1EE7-4293-8327-E0E8A82E8CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86543EE8-1EE7-4293-8327-E0E8A82E8CAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 1.0
+	EndGlobalSection
 EndGlobal
