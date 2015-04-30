@@ -34,7 +34,6 @@ namespace Florismart.Fontisfaction.Droid.Core
 			lock (fontCache) {
 
 				if (fontCache.ContainsKey (font)) {
-					Log.Debug (TAG, font + " cached, get it!");
 					return fontCache [font];
 				}
 
@@ -44,7 +43,6 @@ namespace Florismart.Fontisfaction.Droid.Core
 				else
 					typeface = Typeface.Default;
 
-				Log.Debug (TAG, font + " not cached, cache it!");
 				fontCache.Add (font, typeface);
 				return typeface;
 			}
