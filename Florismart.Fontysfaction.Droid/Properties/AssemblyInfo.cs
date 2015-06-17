@@ -6,9 +6,9 @@ using Android.App;
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle ("Florismart.Fontysfaction.Droid")]
-[assembly: AssemblyDescription ("")]
+[assembly: AssemblyDescription ("Fontysfaction is an Open Source Xamarin Android library that allows developers to easily create applications with custom fonts. Feel free to use it all you want in your Android apps provided that you cite this project and include the license in your app.")]
 [assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
+[assembly: AssemblyCompany ("Florismart")]
 [assembly: AssemblyProduct ("")]
 [assembly: AssemblyCopyright ("Florismart")]
 [assembly: AssemblyTrademark ("")]
