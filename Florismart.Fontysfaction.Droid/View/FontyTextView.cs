@@ -6,6 +6,7 @@ using Android.Content.Res;
 using Florismart.Fontisfaction.Droid.Config;
 using Florismart.Fontisfaction.Droid.Core;
 using Florismart.Fontysfaction.Droid;
+using Android.Runtime;
 
 namespace Florismart.Fontisfaction.Droid.View
 {
@@ -16,6 +17,10 @@ namespace Florismart.Fontisfaction.Droid.View
 	{
 
 		protected readonly static string TAG = "FontyTextView";
+
+		public FontyTextView (IntPtr javaReference, JniHandleOwnership transfere) : base (javaReference, transfere)
+		{
+		}
 
 		public FontyTextView (Context context) : base (context)
 		{
