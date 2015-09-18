@@ -15,6 +15,8 @@ __2.__ Then, add Fontysfaction dll as a dependency to your existing project.
 
 __3.__ At Last quick setup your application class and you are good to go!
 
+Or just import via nuget as Florismart.Fontysfaction.Droid
+
 ```C#
 [Application]
 class MyApplication: Application
